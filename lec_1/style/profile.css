@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    margin-bottom: 5vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    gap: 2vw;
+    box-shadow: 0 0px 5px gray;
+}
+.navBar > a{
+    text-decoration: none;
+    color: azure;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(37, 37, 37);
+}
+
+main {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: fit-content;
+}
+.profileContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(241, 238, 238);
+    border-radius: 30px;
+    padding: 30px;
+    width: 30vw;
+    min-width: fit-content;
+    box-shadow: 0 0 10px gray;
+}
+.profileImage{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 2vh;
+}
+.profileImage :where(img){
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.profileContainer :where(h2){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+.profileContainer :where(a){
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(82, 80, 80);
+}
+.profileContainer :where(p){
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}

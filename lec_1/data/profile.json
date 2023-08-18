@@ -1,0 +1,58 @@
+{
+    "name":"Fouad Abdelhady",
+    "email":"fouad.abd-elhady@outlook.com",
+    "avatar":"https://iili.io/HZz3nov.jpg",
+    "bio":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, fugiat recusandae repudiandae maiores enim quibusdam sint error minus, voluptas tempore dolorum molestias eius facere aspernatur vel. Cumque sapiente omnis, saepe nostrum reiciendis pariatur neque rem porro veniam maxime, atque ea doloremque! Sequi, minima repudiandae! Fugit assumenda inventore voluptas necessitatibus saepe?",
+    "skills": [
+        {
+            "title":"Skill One",
+            "level":"Medium",
+            "description":"A skill, as mentioned above, is a great ability or proficiency; expertness that comes from training,practice, etc."
+        },
+        {
+            "title":"Skill Two",
+            "level":"Inexperienced",
+            "description":"A skill, as mentioned above, is a great ability or proficiency; expertness that comes from training,practice, etc."
+        },
+        {
+            "title":"Skill Three",
+            "level":"Expreienced",
+            "description":"A skill, as mentioned above, is a great ability or proficiency; expertness that comes from training,practice, etc."
+        },
+        {
+            "title":"Skill Four",
+            "level":"Inexperienced",
+            "description":"A skill, as mentioned above, is a great ability or proficiency; expertness that comes from training,practice, etc."
+        },
+        {
+            "title":"Skill Five",
+            "level":"Expreienced",
+            "description":"A skill, as mentioned above, is a great ability or proficiency; expertness that comes from training,practice, etc."
+        },
+        {
+            "title":"Skill Six",
+            "level":"Expreienced",
+            "description":"A skill, as mentioned above, is a great ability or proficiency; expertness that comes from training,practice, etc."
+        },
+        {
+            "title":"Skill Seven",
+            "level":"Inexperienced",
+            "description":"A skill, as mentioned above, is a great ability or proficiency; expertness that comes from training,practice, etc."
+        }
+        ,{
+            "title":"Skill Eight",
+            "level":"Medium",
+            "description":"A skill, as mentioned above, is a great ability or proficiency; expertness that comes from training,practice, etc."
+        },
+        {
+            "title":"Skill Nine",
+            "level":"Inexperienced",
+            "description":"A skill, as mentioned above, is a great ability or proficiency; expertness that comes from training,practice, etc."
+        },
+        {
+            "title":"Skill Ten",
+            "level":"Expreienced",
+            "description":"A skill, as mentioned above, is a great ability or proficiency; expertness that comes from training,practice, etc."
+        }
+    ]
+}
