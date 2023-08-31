@@ -1,0 +1,26 @@
+.shipmentsContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 10px;
+}
+.shipmentItem{
+    background-color: orange;
+    padding: 2vh;
+    border-radius: 20px;
+}
+.shipmentItem > h2{
+    text-align: center;
+    font-weight: 350;
+    color: rgb(36, 36, 36);
+}
+.shipmentDetail{
+    display: flex;
+    border-bottom: 1px solid rgb(58, 58, 58);
+}
+.shipmentDetail :where(h3){
+    width: 50%;
+    font-weight: 300;
+    margin: 5px;
+}

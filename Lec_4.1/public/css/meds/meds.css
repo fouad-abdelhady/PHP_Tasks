@@ -1,0 +1,35 @@
+
+.medsList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 10px;
+    margin-top: 3vh;
+}
+.medItem{
+    background-color: orange;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow:  2px 2px 10px gray;
+}
+.medItem > h2{
+    text-align: center;
+}
+.itemDetail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    border-bottom: 1px solid white;
+}
+.itemDetail>h3{
+    width: 50%;
+    font-weight: 300;
+    padding: 5px;
+    margin: 5px;
+}
+.itemDetail>:nth-child(2){
+    text-align: center;
+    
+}
